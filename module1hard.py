@@ -5,7 +5,11 @@ students = sorted({'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'})
 #    print(i)
 
 students_grades = dict(zip(students, grades))
+avg_grades = {}
 
 for student in students_grades:
     avg_grade = sum(students_grades[student]) / len(students_grades[student])
-    print(f"Average grade for {student} - {avg_grade}")
+    avg_grades[student] = avg_grade
+#    print(f"Average grade for {student} - {avg_grade}")
+
+print(avg_grades)
