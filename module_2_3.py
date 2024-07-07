@@ -3,6 +3,9 @@ i = 0
 while i < len(my_list):
     if my_list[i] < 0:
         break
+    elif my_list[i] == 0:
+        i += 1
+        continue
     print(f"{my_list[i]}")
     i += 1
 
