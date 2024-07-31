@@ -1,5 +1,5 @@
 class House:
-    def __init__(self, name, number_of_floors):
+    def __init__(self, name: str, number_of_floors: int):
         self.name = name
         self.number_of_floors = number_of_floors
 
