@@ -17,8 +17,7 @@ class House:
             print("Такого этажа не существует")
 
 house = House('ЖК Эльбрус', 30)
-house.go_to(15)
-
+house.go_to(10)
 h1 = House('ЖК Эльбрус', 10)
 h2 = House('ЖК Акация', 20)
 
